@@ -1,7 +1,7 @@
 package com.dpk.leetcode.lc75;
 
+import com.dpk.leetcode.upto100.lc75.SortColors;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

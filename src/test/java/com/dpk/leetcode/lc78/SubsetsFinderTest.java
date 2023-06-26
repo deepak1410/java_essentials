@@ -1,14 +1,10 @@
 package com.dpk.leetcode.lc78;
 
+import com.dpk.leetcode.upto100.lc78.SubsetsFinder;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class SubsetsFinderTest {
 

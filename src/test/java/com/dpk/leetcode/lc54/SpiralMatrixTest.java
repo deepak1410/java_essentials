@@ -1,5 +1,6 @@
 package com.dpk.leetcode.lc54;
 
+import com.dpk.leetcode.upto100.lc54.SpiralMatrix;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;

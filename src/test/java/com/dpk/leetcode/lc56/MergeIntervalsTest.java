@@ -1,7 +1,7 @@
 package com.dpk.leetcode.lc56;
 
+import com.dpk.leetcode.upto100.lc56.MergeIntervals;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

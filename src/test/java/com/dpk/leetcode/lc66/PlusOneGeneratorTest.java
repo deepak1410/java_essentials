@@ -1,5 +1,6 @@
 package com.dpk.leetcode.lc66;
 
+import com.dpk.leetcode.upto100.lc66.PlusOneGenerator;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 

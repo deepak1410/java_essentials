@@ -1,9 +1,9 @@
 package com.dpk.leetcode.lc23;
 
+import com.dpk.leetcode.dto.ListNode;
+import com.dpk.leetcode.upto100.lc23.MergeKSortedLists;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class MergeKSortedListsTest {
 

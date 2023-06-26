@@ -1,8 +1,7 @@
 package com.dpk.leetcode.lc263;
 
+import com.dpk.leetcode.upto300.lc263.UglyNumberFinder;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
