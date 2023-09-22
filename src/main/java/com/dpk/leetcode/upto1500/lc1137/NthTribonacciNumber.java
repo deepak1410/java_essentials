@@ -1,4 +1,4 @@
-package com.dpk.leetcode.lc1137;
+package com.dpk.leetcode.upto1500.lc1137;
 
 public class NthTribonacciNumber {
 

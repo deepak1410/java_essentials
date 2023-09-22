@@ -8,7 +8,7 @@ public class KthLargestElement {
     public int findKthLargest(int[] nums, int k) {
         return Arrays.stream(nums)
                 .boxed().sorted(Comparator.reverseOrder())
-                .limit(k).skip(k-1).findFirst().get();
+                .skip(k-1).limit(1).findFirst().get();
     }
 
     private void testCase1() {
