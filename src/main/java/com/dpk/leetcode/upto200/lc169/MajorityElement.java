@@ -1,6 +1,8 @@
 package com.dpk.leetcode.upto200.lc169;
 
 import java.util.Arrays;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 public class MajorityElement {
 
@@ -24,6 +26,11 @@ public class MajorityElement {
     private int usingSorting(int[] nums) {
         Arrays.sort(nums);
         return nums[nums.length/2];
+    }
+
+    public static int majorityElement_usingGroupByCount(int[] nums) {
+        Map<Integer, Long> numsCount = Arrays.stream(nums).boxed().collect(Collectors.groupingBy(Integer::valueOf, Collectors.counting()));
+        return numsCount.entrySet().stream().max(Map.Entry.comparingByValue()).get().getKey();
     }
 
     private void testcase1() {

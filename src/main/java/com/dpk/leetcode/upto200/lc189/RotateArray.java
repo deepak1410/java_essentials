@@ -27,6 +27,20 @@ public class RotateArray {
         System.arraycopy(result, 0, nums,0, result.length);
     }
 
+    public void rotate_alternative(int[] nums, int k) {
+        int n = nums.length;
+        k = k >= n ? k %n: k;
+        int[] rotatedArr = new int[n];
+        int new_index;
+
+        for(int i=0; i< n; i++) {
+            new_index = k + i < n ? k + i : k + i -n;
+            rotatedArr[new_index] = nums[i];
+        }
+
+        System.arraycopy(rotatedArr, 0, nums, 0, n);
+    }
+
     public void testCase1() {
         int[] nums = {1,2,3,4,5,6,7};
         rotate(nums, 3);

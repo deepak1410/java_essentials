@@ -24,6 +24,34 @@ public class ProductOfArrayExceptSelf {
         return ans;
     }
 
+    // This simple solution beats 99% on LeetCode
+    public int[] productExceptSelf_WithBruteForce(int[] nums) {
+        int product = 1;
+        int[] results = new int[nums.length];
+
+        for(int num : nums) {
+            product *= num;
+        }
+        if(product != 0) {
+
+            for(int i=0; i<nums.length; i++) {
+                results[i] = product / nums[i];
+            }
+        } else {
+            for(int i=0; i<nums.length; i++) {
+                int result = 1;
+                for(int j=0; j<nums.length; j++) {
+                    if(i != j) {
+                        result = result * nums[j];
+                    }
+                }
+                results[i] = result;
+
+            }
+        }
+        return results;
+    }
+
     public static void main(String[] args) {
         ProductOfArrayExceptSelf obj = new ProductOfArrayExceptSelf();
         int[] arr = {5, 2, 4, 3, 2};
