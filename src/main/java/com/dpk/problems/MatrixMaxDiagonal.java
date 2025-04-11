@@ -1,4 +1,4 @@
-package com.dpk.common;
+package com.dpk.problems;
 
 import java.util.Collections;
 import java.util.List;

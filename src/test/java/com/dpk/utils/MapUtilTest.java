@@ -1,4 +1,4 @@
-package com.dpk.utils.map;
+package com.dpk.utils;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;

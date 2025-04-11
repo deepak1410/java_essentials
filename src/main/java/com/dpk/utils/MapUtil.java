@@ -1,4 +1,4 @@
-package com.dpk.utils.map;
+package com.dpk.utils;
 
 import java.util.*;
 import java.util.function.Function;
